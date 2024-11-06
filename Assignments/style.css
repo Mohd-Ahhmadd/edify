@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3A404E;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+}
+.item{
+    border: 4px solid black;
+    min-height: 50px;
+    max-height: 100%;
+    /* background-color: antiquewhite; */
+    color: white;
+    /* text-decoration: underline; */
+    border-radius: 10px;
+}
+.item:nth-child(1){
+    grid-column: 1/4;
+    width: 1000px;
+   margin-left: 130px;
+   height: 100px;
+   margin-top: 20px;
+   text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   align-content: center;
+   background-color: #836FE0;
+}
+.item:nth-child(2){
+    grid-row:2/4 ;
+    width: 250px;
+    margin-left: 130px;
+    text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   align-content: center;
+   background-color: #35C5BC;
+
+}
+.item:nth-child(3){
+    grid-column: 2/4;
+    width: 680px;
+    margin-left: 20px;
+    height: 200px;
+    text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   align-content: center;
+   background-image: linear-gradient(to right,#605FDE,#3491F1,#2DC2ED);
+}
+.item:nth-child(4){
+    width: 315px;
+    margin-left: 20px;
+    text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   align-content: center;
+   background-image: linear-gradient(to right,#605FDE,#3491F1,#2DC2ED);
+}
+.item:nth-child(5){
+    width: 315px;
+    margin-left: -45px;
+    /* background-color: aqua; */
+    /* margin-right: 10px; */
+    height: 200px;
+    text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   align-content: center;
+   background-image: linear-gradient( to right,#605FDE,#3491F1,#2DC2ED);
+}
+.item:nth-child(6){
+    grid-column: 1/4;
+    width: 1000px;
+    margin-left: 130px;
+    height: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+    align-content: center;
+    background-color: #836CE0;
+}
+
